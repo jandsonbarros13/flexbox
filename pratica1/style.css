@@ -1,0 +1,296 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --ff-primary: "Nunito", Helvetica, Arial, sans-serif;
+
+  --clr-violet-dark: #500946;
+  --clr-green-light: #c82bdd;
+  --clr-blue-dark: #3a098a;
+  --clr-blue-light: #5754eb;
+  --clr-white: #f5f5f5;
+  --clr-gray:#8f8f8f;
+}
+body {
+  background-color: #e0e0e0;
+  font-family: var(--ff-primary);
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+a,
+a:hover,
+a:active,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+hr {
+  border: none;
+  background-color: var(--clr-blue-light);
+  height: 2px;
+  width: 140px;
+  margin: 20px auto;
+}
+p {
+  line-height: 21.82px;
+  padding: 0 10px;
+}
+.section__titulo {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.menu-bg {
+  background-color: var(--clr-blue-dark);
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.menu__logo {
+  margin: 10px;
+}
+.nav__list {
+display: flex;
+flex-wrap: wrap;
+}
+.nav__link {
+  padding: 20px 10px;
+  font-size: 1.5rem;
+
+}
+.intro {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+.somos {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.somos-c {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+.somos-c__texto {
+  flex: 6 1 160px;
+}
+.somos-c__img {
+  flex: 1 1 350px;
+}
+.img-somos {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  display: block;
+  max-width: 100%;
+}
+.logo {
+  width: 100px;
+  height: 80px;
+}
+.titulo-novos {
+  font-size:3rem;
+  text-align: center;
+}
+.cards-estilos {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.estilo {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+  }
+.estilo h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.estilo p {
+  max-width: 350px;
+}
+.img-stilo{
+  width: 300px;
+  height: 260px;
+}
+.vantagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+.vantagens p {
+  max-width: 700px;
+  margin: 50px;
+  font-size: 1.3rem;
+}
+.capa {
+  width: 100vw;
+  height: 400px;
+  background-image: url("https://www.moblee.com.br/blog/wp-content/uploads/sites/2/2017/12/Veja-como-usar-o-Facebook-para-promover-um-evento-2-1024x363.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.capa h1 {
+  font-size: 3rem;
+  color: red;
+  text-align: center;
+}
+.titulo-form {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #3a098a;
+}
+#contatos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 100px;
+}
+form {
+  width: 500px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #3a098a;
+}
+textarea {
+    margin: 20px;
+  width: 400px;
+  border: none;
+}
+textarea::placeholder {
+    font-size: 1.5rem;
+  color: #5754eb;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button, .reset {
+  margin: 10px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #3a098a;
+  color: #f5f5f5;
+}
+.cont-input {
+    margin: 20px;
+  width: 400px;
+  height: 50px;
+  border: none;
+}
+.cont-input::placeholder{
+  font-size: 1.5rem;
+  color: #5754eb;
+}
+footer {
+  margin-top: 100px;
+  width: 100vw;
+  height: 200px;
+  background-color: #3a098a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo-rod {
+  margin: 20px;
+  border: 2px solid #c82bdd;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+}
+.rodape-titulo {
+  font-size: 3rem;
+  color: #f5f5f5;
+  text-align: center;
+}
+@media (max-width: 800px) {
+    .menu {
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+  }
+  .vantagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+
+  .somos-c {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+.cards-estilos {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+}
+@media (max-width: 1100px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards-estilos {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+  .vantagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+footer {
+  height: 400px;
+}
+}
